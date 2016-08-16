@@ -39,7 +39,7 @@ void displayArray( const DataType theArray[], int size ){
 }
 
 void bubbleSort(DataType theArray[], int n){
-   bool sorted = false ;  // false if swaps occur
+   bool sorted;  // false if swaps occur
 
    for (int pass = 1; (pass < n) && !sorted; ++pass){
       sorted = true;  // assume sorted
